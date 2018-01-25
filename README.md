@@ -14,19 +14,13 @@ Facebook APP
 
 ## Authors
 
-* **Nate Barbettini** - *Inspired* - [PurpleBooth](https://github.com/nbarbettini/little-aspnetcore-todo)
-* **Simon Planberger** - *Initial* - [PurpleBooth](https://github.com/planbsim/aspnetcore-authentication)
+* **Nate Barbettini** - *Inspired* - [Little-AspNetCore-Todo](https://github.com/nbarbettini/little-aspnetcore-todo)
+* **Simon Planberger** - *Initial* - [Security Identity](https://github.com/planbsim/aspnetcore-authentication)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+See also the list of [contributors](https://github.com/planbsim/aspnetcore-authentication/graphs/contributors) who participated in this project.
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
 * Inspiration
-* etc
 
 
