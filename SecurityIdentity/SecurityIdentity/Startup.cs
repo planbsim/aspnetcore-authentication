@@ -98,6 +98,12 @@ namespace SecurityIdentity
 
             app.UseRewriter(rewriteOptions);
 
+            // there is not a first http connection wich is redirected to https
+            app.UseHsts((configurer) =>
+            {
+            configurer.MaxAge(days: 365).IncludeSubdomains();
+            });
+
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
