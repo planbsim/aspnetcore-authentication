@@ -101,7 +101,7 @@ namespace SecurityIdentity
             // there is not a first http connection wich is redirected to https
             app.UseHsts((configurer) =>
             {
-            configurer.MaxAge(days: 365).IncludeSubdomains();
+            configurer.MaxAge(days: 31536000).IncludeSubdomains();
             });
 
             app.UseMvc(routes =>
